@@ -1,0 +1,277 @@
+@import "tailwindcss";
+
+/* =========================================
+   BOY - WHOLE BODY DANCE
+========================================= */
+
+@keyframes boyBodyDance {
+  0%, 100% {
+    transform: translateY(0) rotate(0deg);
+  }
+
+  20% {
+    transform: translateY(-8px) rotate(-4deg);
+  }
+
+  40% {
+    transform: translateY(0) rotate(3deg);
+  }
+
+  60% {
+    transform: translateY(-10px) rotate(4deg);
+  }
+
+  80% {
+    transform: translateY(0) rotate(-3deg);
+  }
+}
+
+.boy-dance {
+  animation: boyBodyDance 1s ease-in-out infinite;
+  transform-box: fill-box;
+  transform-origin: center bottom;
+}
+
+
+/* =========================================
+   GIRL - WHOLE BODY DANCE
+========================================= */
+
+@keyframes girlBodyDance {
+  0%, 100% {
+    transform: translateY(0) rotate(0deg);
+  }
+
+  20% {
+    transform: translateY(-10px) rotate(4deg);
+  }
+
+  40% {
+    transform: translateY(0) rotate(-3deg);
+  }
+
+  60% {
+    transform: translateY(-8px) rotate(-4deg);
+  }
+
+  80% {
+    transform: translateY(0) rotate(3deg);
+  }
+}
+
+.girl-dance {
+  animation: girlBodyDance 1s ease-in-out infinite;
+  transform-box: fill-box;
+  transform-origin: center bottom;
+}
+
+
+/* =========================================
+   BOY LEFT ARM
+========================================= */
+
+@keyframes boyLeftArm {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  50% {
+    transform: rotate(-25deg);
+  }
+
+  100% {
+    transform: rotate(12deg);
+  }
+}
+
+.boy-left-arm {
+  animation: boyLeftArm 0.7s ease-in-out infinite alternate;
+  transform-box: fill-box;
+  transform-origin: right center;
+}
+
+
+/* =========================================
+   BOY RIGHT ARM
+========================================= */
+
+@keyframes boyRightArm {
+  0% {
+    transform: rotate(15deg);
+  }
+
+  50% {
+    transform: rotate(-15deg);
+  }
+
+  100% {
+    transform: rotate(25deg);
+  }
+}
+
+.boy-right-arm {
+  animation: boyRightArm 0.7s ease-in-out infinite alternate;
+  transform-box: fill-box;
+  transform-origin: left center;
+}
+
+
+/* =========================================
+   GIRL LEFT ARM
+========================================= */
+
+@keyframes girlLeftArm {
+  0% {
+    transform: rotate(15deg);
+  }
+
+  50% {
+    transform: rotate(-20deg);
+  }
+
+  100% {
+    transform: rotate(25deg);
+  }
+}
+
+.girl-left-arm {
+  animation: girlLeftArm 0.7s ease-in-out infinite alternate;
+  transform-box: fill-box;
+  transform-origin: right center;
+}
+
+
+/* =========================================
+   GIRL RIGHT ARM
+========================================= */
+
+@keyframes girlRightArm {
+  0% {
+    transform: rotate(-15deg);
+  }
+
+  50% {
+    transform: rotate(20deg);
+  }
+
+  100% {
+    transform: rotate(-25deg);
+  }
+}
+
+.girl-right-arm {
+  animation: girlRightArm 0.7s ease-in-out infinite alternate;
+  transform-box: fill-box;
+  transform-origin: left center;
+}
+
+
+/* =========================================
+   BOY LEFT LEG
+========================================= */
+
+@keyframes boyLeftLeg {
+  0%, 100% {
+    transform: rotate(0deg);
+  }
+
+  50% {
+    transform: rotate(-12deg);
+  }
+}
+
+.boy-left-leg {
+  animation: boyLeftLeg 0.5s ease-in-out infinite alternate;
+  transform-box: fill-box;
+  transform-origin: top center;
+}
+
+
+/* =========================================
+   BOY RIGHT LEG
+========================================= */
+
+@keyframes boyRightLeg {
+  0%, 100% {
+    transform: rotate(0deg);
+  }
+
+  50% {
+    transform: rotate(14deg);
+  }
+}
+
+.boy-right-leg {
+  animation: boyRightLeg 0.5s ease-in-out infinite alternate;
+  transform-box: fill-box;
+  transform-origin: top center;
+}
+
+
+/* =========================================
+   GIRL LEFT LEG
+========================================= */
+
+@keyframes girlLeftLeg {
+  0%, 100% {
+    transform: rotate(0deg);
+  }
+
+  50% {
+    transform: rotate(13deg);
+  }
+}
+
+.girl-left-leg {
+  animation: girlLeftLeg 0.5s ease-in-out infinite alternate;
+  transform-box: fill-box;
+  transform-origin: top center;
+}
+
+
+/* =========================================
+   GIRL RIGHT LEG
+========================================= */
+
+@keyframes girlRightLeg {
+  0%, 100% {
+    transform: rotate(0deg);
+  }
+
+  50% {
+    transform: rotate(-13deg);
+  }
+}
+
+.girl-right-leg {
+  animation: girlRightLeg 0.5s ease-in-out infinite alternate;
+  transform-box: fill-box;
+  transform-origin: top center;
+}
+
+
+/* =========================================
+   HEAD BOB
+========================================= */
+
+@keyframes headBob {
+  0%, 100% {
+    transform: rotate(0deg);
+  }
+
+  50% {
+    transform: rotate(5deg);
+  }
+}
+
+.boy-head {
+  animation: headBob 0.8s ease-in-out infinite alternate;
+  transform-box: fill-box;
+  transform-origin: center bottom;
+}
+
+.girl-head {
+  animation: headBob 0.8s ease-in-out infinite alternate-reverse;
+  transform-box: fill-box;
+  transform-origin: center bottom;
+}
