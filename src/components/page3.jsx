@@ -268,7 +268,7 @@ export default function Page3({ onNext }) {
                     sm:text-xs
                   "
                 >
-                  BIRTHDAY
+                  BFDAY
                 </p>
 
               </div>
@@ -277,22 +277,22 @@ export default function Page3({ onNext }) {
 
           </div>
 
-        {/* ================= NEXT BUTTON ================= */}
+         {/* ================= NEXT BUTTON ================= */}
 
         <button
           onClick={onNext}
           className="
-            mt-30
-            absolute
-            right-[12%]
-            bottom-[7.5%]
+            mt-10
+            flex
+            w-full
             max-w-[340px]
+            items-center
             justify-center
-            gap-2
+            gap-4
             rounded-full
             bg-[#d65372]
-            px-5
-            py-2
+            px-10
+            py-4
             text-lg
             font-medium
             text-white
@@ -309,7 +309,6 @@ export default function Page3({ onNext }) {
           <span className="text-2xl">
             →
           </span>
-
         </button>
 
       </main>
